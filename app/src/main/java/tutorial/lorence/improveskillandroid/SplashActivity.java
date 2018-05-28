@@ -1,4 +1,4 @@
-package tutorial.lorence.irapicture;
+package tutorial.lorence.improveskillandroid;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
