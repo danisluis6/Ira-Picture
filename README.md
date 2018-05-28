@@ -25,9 +25,11 @@
 as if they declared the <code><a href="https://developer.android.com/reference/android/content/Intent.html#CATEGORY_DEFAULT">CATEGORY_DEFAULT</a></code> category.
 If you do not declare it in your intent filter, no implicit intents will resolve to
 your activity.</p>
+
 ## Research about this library: hawk
 <img align="right" src="https://github.com/orhanobut/hawk/raw/master/art/hawk-logo.png" width="128" height="128" style="max-width:100%;">
 <img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> 
+
 ## We Research about "Observe Design Pattern"
 ```java
 compile "com.orhanobut:hawk:2.0.1"
