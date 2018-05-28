@@ -5,7 +5,23 @@
 ## Handle configuration changes `android:configChanges`
 
 ``The most commonly used values are "orientation", "screenSize", and "keyboardHidden". The "orientation" value prevents restarts when the screen orientation changes. The "screenSize" value also prevents restarts when orientation changes, but beginning in Android 3.2 (API level 13). If you want to manually handle configuration changes in your app you must declare both the "orientation" and "screenSize" values in the android:configChanges attributes. The "keyboardHidden" value prevents restarts when the keyboard availability changes. You can declare multiple configuration values in the attribute by separating them with a pipe | character.``
-![alt text](https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/1.png)
+
+```java
+<activity
+    android:name=".SplashActivity"
+    android:configChanges="orientation|screenSize"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+    <intent-filter>
+	<action android:name="android.intent.action.MAIN" />
+
+	<category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+```
+
+<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> XXX
+
+
 
 ## We Research about "Observe Design Pattern"
 
@@ -14,35 +30,6 @@ When to use it:
 2. When subject doesn't know about number of observers it has.
 3. When an object should be able to notify other objects without knowing who objects are.
 
-```java
-import java.util.ArrayList;
-import java.util.List;
-
-  public class Subject {
-
-  private int state;
-
-  public int getState() {
-    return state;
-  }
-
- public void setState(int state) {
- import java.util.ArrayList;
-  import java.util.List;
-
-  public class Subject {
-
-  private int state;
-
-  public int getState() {
-    return state;
-  }
-
- public void setState(int state) {
-   this.state = state;
- }
-}   
-```
 <img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> We need <b>ArrayList<Observer>()</b>, <b>attach(Observer observer)</b>, <b>notifyAllObservers()</b> and finally <b>notifyAllObservers()</b>
    
 <img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/c.png" width="24px" height="24px"/>  Create variable to contain these observers<br>
