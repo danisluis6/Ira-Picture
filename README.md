@@ -27,13 +27,14 @@ If you do not declare it in your intent filter, no implicit intents will resolve
 your activity.</p>
 
 ## Research about this library: hawk
-<img align="right" src="https://github.com/orhanobut/hawk/raw/master/art/hawk-logo.png" width="128" height="128" style="max-width:100%;">
-<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> 
-
-## We Research about "Observe Design Pattern"
+<img align="right" src="https://github.com/orhanobut/hawk/raw/master/art/hawk-logo.png" width="128" height="128" style="max-width:100%;"> 
 ```java
 compile "com.orhanobut:hawk:2.0.1"
 ```
+<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> 
+
+## We Research about "Observe Design Pattern"
+
 When to use it:
 1. When one object changes its state,then all other dependents object must automatically change their state to maintain consistency
 2. When subject doesn't know about number of observers it has.
