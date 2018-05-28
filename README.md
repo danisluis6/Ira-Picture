@@ -28,10 +28,7 @@ your activity.</p>
 
 ## Research about this library: hawk
 <img align="right" src="https://github.com/orhanobut/hawk/raw/master/art/hawk-logo.png" width="128" height="128" style="max-width:100%;"> 
-```java
-compile "com.orhanobut:hawk:2.0.1"
-```
-<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> 
+<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/>  ```java compile "com.orhanobut:hawk:2.0.1" ```
 
 ## We Research about "Observe Design Pattern"
 
