@@ -8,4 +8,41 @@
 3. Create Intent-Filter in SplashActivity and access data from Intent-Filter(Implicit Intent Filter)
 4. Perform check permission when launch application at first.
 
+## Structure: Folder
+> <b>app</b>
+>> Application.java
+
+> di
+
+>> component
+>>> AppComponent.java<br>
+>>> SplashComponent.java
+
+>> module
+>>> AppModule
+>>> SplashModule
+
+>> scope
+>>> ActivityScope
+> helper
+>> ColorPalette
+
+> other
+>> ImplicitIntentFilter<br>
+>> LogUtils<br>
+>> PermissionCode<br>
+>> PermissionUtils<br>
+>> ThemeEditorUtils<br>
+>> ToastUtils.java
+
+> view
+>> activity
+>>> splash
+>>>> SplashScreen.java
+
+>>> SharedMediaActivity.java<br>
+>>> ThemedActivity.java
+>> fragment
+
+
 
