@@ -6,15 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import java.io.File;
-
 import javax.inject.Inject;
 
 import tutorial.lorence.improveskillandroid.R;
 import tutorial.lorence.improveskillandroid.app.Application;
 import tutorial.lorence.improveskillandroid.di.module.SplashModule;
 import tutorial.lorence.improveskillandroid.other.ImplicitIntentFilter;
-import tutorial.lorence.improveskillandroid.other.LogUtils;
 import tutorial.lorence.improveskillandroid.other.PermissionCode;
 import tutorial.lorence.improveskillandroid.other.PermissionUtils;
 import tutorial.lorence.improveskillandroid.other.ThemeEditorUtils;
@@ -99,6 +96,6 @@ public class SplashScreen extends SharedMediaActivity {
 
     @Override
     protected void initViews() {
-        mToastUtils.show(mContext, "Here we go!!!");
+
     }
 }
