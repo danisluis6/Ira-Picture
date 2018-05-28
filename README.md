@@ -19,9 +19,15 @@
 </activity>
 ```
 
-<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> XXX
+<img src = "https://github.com/danisluis6/RxJava-Introduction/blob/level_research_reactive/Deeply/x.png" width="75px" height="40px"/> 
 
-
+<p class="note"><strong>Note:</strong> In order to receive implicit intents, you must include the
+<code><a href="https://developer.android.com/reference/android/content/Intent.html#CATEGORY_DEFAULT">CATEGORY_DEFAULT</a></code> category in the intent filter. The methods
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#startActivity(android.content.Intent)">startActivity()</a></code> and
+<code><a href="https://developer.android.com/reference/android/app/Activity.html#startActivityForResult(android.content.Intent, int)">startActivityForResult()</a></code> treat all intents
+as if they declared the <code><a href="https://developer.android.com/reference/android/content/Intent.html#CATEGORY_DEFAULT">CATEGORY_DEFAULT</a></code> category.
+If you do not declare it in your intent filter, no implicit intents will resolve to
+your activity.</p>
 
 ## We Research about "Observe Design Pattern"
 
