@@ -23,7 +23,6 @@ public abstract class ThemedActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         ButterKnife.bind(this);
         initAttributes();
-        initViews();
     }
 
     public void distributedDaggerComponents() {
@@ -35,8 +34,6 @@ public abstract class ThemedActivity extends AppCompatActivity {
     }
 
     protected void initAttributes(){}
-
-    protected void initViews(){}
 
     @Override
     protected void onDestroy() {

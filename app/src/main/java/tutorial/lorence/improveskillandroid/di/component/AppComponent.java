@@ -4,6 +4,7 @@ import javax.inject.Singleton;
 
 import dagger.Component;
 import tutorial.lorence.improveskillandroid.di.module.AppModule;
+import tutorial.lorence.improveskillandroid.di.module.MainModule;
 import tutorial.lorence.improveskillandroid.di.module.SplashModule;
 
 /**
@@ -20,4 +21,5 @@ import tutorial.lorence.improveskillandroid.di.module.SplashModule;
 )
 public interface AppComponent {
     SplashComponent plus(SplashModule module);
+    MainComponent plus(MainModule module);
 }

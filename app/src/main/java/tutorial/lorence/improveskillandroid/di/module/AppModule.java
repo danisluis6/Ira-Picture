@@ -9,7 +9,6 @@ import dagger.Provides;
 import tutorial.lorence.improveskillandroid.app.Application;
 import tutorial.lorence.improveskillandroid.other.ImplicitIntentFilter;
 import tutorial.lorence.improveskillandroid.other.LogUtils;
-import tutorial.lorence.improveskillandroid.other.PermissionCode;
 import tutorial.lorence.improveskillandroid.other.PermissionUtils;
 import tutorial.lorence.improveskillandroid.other.ToastUtils;
 
@@ -59,10 +58,6 @@ public class AppModule {
     LogUtils provideLogUtils() {
         return new LogUtils();
     }
-
-    @Provides
-    @Singleton
-    PermissionCode providePermissionCode() { return new PermissionCode(); }
 
     @Provides
     @Singleton
