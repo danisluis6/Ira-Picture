@@ -36,6 +36,7 @@ dependencies {
 
     // Recycler View
     compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
 
     // Implement Dagger 2
     compile 'com.google.dagger:dagger:2.14.1'
