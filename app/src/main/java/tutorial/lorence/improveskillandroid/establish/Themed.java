@@ -1,6 +1,4 @@
-package tutorial.lorence.improveskillandroid.custom;
-
-import tutorial.lorence.improveskillandroid.helper.ThemeHelper;
+package tutorial.lorence.improveskillandroid.establish;
 
 /**
  * Created by vuongluis on 4/14/2018.

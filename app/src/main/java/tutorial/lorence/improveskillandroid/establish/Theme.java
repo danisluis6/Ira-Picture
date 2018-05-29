@@ -1,4 +1,4 @@
-package tutorial.lorence.improveskillandroid.custom;
+package tutorial.lorence.improveskillandroid.establish;
 
 /**
  * Created by vuongluis on 4/14/2018.
@@ -9,7 +9,7 @@ package tutorial.lorence.improveskillandroid.custom;
 public enum Theme {
     LIGHT(1), DARK(2), AMOLED(3);
 
-    public int value;
+    int value;
 
     Theme(int value) {
         this.value = value;

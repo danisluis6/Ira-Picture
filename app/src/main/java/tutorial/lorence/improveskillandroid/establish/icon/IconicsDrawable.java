@@ -1,4 +1,4 @@
-package tutorial.lorence.improveskillandroid.custom;
+package tutorial.lorence.improveskillandroid.establish.icon;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -38,7 +38,6 @@ import static android.view.View.LAYER_TYPE_SOFTWARE;
  * @version 0.0.1
  */
 
-@SuppressWarnings("JavaDoc, UnusedReturnValue, WeakerAccess, unused, MethodDoesntCallSuperMethod, SameParameterValue")
 public class IconicsDrawable extends Drawable {
     /**
      * Size of {@link android.support.v7.widget.Toolbar} icon in dp

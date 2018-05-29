@@ -1,11 +1,9 @@
-package tutorial.lorence.improveskillandroid.helper;
+package tutorial.lorence.improveskillandroid.establish;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.ColorUtils;
-
-import tutorial.lorence.improveskillandroid.R;
 
 /**
  * Created by vuongluis on 4/14/2018.

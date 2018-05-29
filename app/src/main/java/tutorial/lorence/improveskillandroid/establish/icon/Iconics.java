@@ -1,4 +1,4 @@
-package tutorial.lorence.improveskillandroid.custom;
+package tutorial.lorence.improveskillandroid.establish.icon;
 
 import android.content.Context;
 import android.text.Editable;
@@ -21,7 +21,6 @@ import java.util.List;
  * @version 0.0.1
  */
 
-@SuppressWarnings("JavaDoc, UnusedReturnValue, WeakerAccess, unused, SameParameterValue")
 public final class Iconics {
     public static final String TAG = Iconics.class.getSimpleName();
 

@@ -8,7 +8,6 @@ import android.support.v4.content.ContextCompat;
 import javax.inject.Inject;
 
 import tutorial.lorence.improveskillandroid.R;
-import tutorial.lorence.improveskillandroid.helper.ColorPalette;
 
 /**
  * Created by vuongluis on 4/14/2018.

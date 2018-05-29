@@ -1,12 +1,12 @@
-package tutorial.lorence.improveskillandroid.custom;
+package tutorial.lorence.improveskillandroid.establish.ui;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 
-import tutorial.lorence.improveskillandroid.R;
-import tutorial.lorence.improveskillandroid.helper.ThemeHelper;
+import tutorial.lorence.improveskillandroid.establish.ThemeHelper;
+import tutorial.lorence.improveskillandroid.establish.Themed;
 
 /**
  * Created by vuongluis on 4/14/2018.
@@ -16,7 +16,6 @@ import tutorial.lorence.improveskillandroid.helper.ThemeHelper;
 
 public class ThemedToolbar extends Toolbar implements Themed {
 
-    // Custom Theme by JavaCode
     public ThemedToolbar(Context context) {
         super(context, null, R.style.ToolbarTheme);
     }
@@ -33,5 +32,4 @@ public class ThemedToolbar extends Toolbar implements Themed {
     public void refreshTheme(ThemeHelper themeHelper) {
         setBackgroundColor(themeHelper.getPrimaryColor());
     }
-
 }
